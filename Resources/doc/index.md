@@ -18,7 +18,7 @@ Installation is a quick 4 step process:
 
 1. Add NewsBundle in your composer.json
 2. Enable the Bundle
-3. Import PageBundle routing
+3. Import NewsBundle routing
 4. Update your database schema
 
 ### Step 1: Add NewsBundle in your composer.json
