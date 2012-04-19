@@ -4,10 +4,11 @@ namespace Stfalcon\Bundle\NewsBundle\DataFixtures\ORM;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Stfalcon\Bundle\NewsBundle\Entity\News;
+use Doctrine\Common\Persistence\ObjectManager;
 
 class LoadNewsData extends AbstractFixture
 {
-    public function load($manager)
+    public function load(ObjectManager $manager)
     {
         $news = new News();
         $news->setSlug('testNews');
