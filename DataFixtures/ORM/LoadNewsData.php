@@ -4,6 +4,7 @@ namespace Stfalcon\Bundle\NewsBundle\DataFixtures\ORM;
 
 use Doctrine\Common\DataFixtures\AbstractFixture;
 use Stfalcon\Bundle\NewsBundle\Entity\News;
+use Doctrine\Common\Persistence\ObjectManager;
 
 class LoadNewsData extends AbstractFixture
 {
