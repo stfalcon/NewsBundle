@@ -19,5 +19,5 @@
         "sonata-project/admin-bundle": "dev-master",
         "sonata-project/doctrine-orm-admin-bundle": "dev-master"
     },
-    "target-dir": "../../../src/Stfalcon/Bundle/NewsBundle"
+    "target-dir": "Stfalcon/Bundle/NewsBundle"
 }
