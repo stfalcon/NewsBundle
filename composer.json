@@ -24,5 +24,10 @@
         "doctrine/doctrine-fixtures-bundle": "required for functional testing",
         "doctrine/data-fixtures": "required for functional testing"
     },
+    "autoload": {
+        "psr-0": {
+            "Stfalcon\\Bundle\\NewsBundle": ""
+        }
+    },
     "target-dir": "Stfalcon/Bundle/NewsBundle"
 }
