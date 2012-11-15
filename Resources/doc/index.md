@@ -62,6 +62,7 @@ StfalconNewsBundle:
     type:     annotation
     prefix:   /
 ```
+[Routing in SonataAdminBundle](https://github.com/sonata-project/SonataAdminBundle/blob/master/Resources/doc/reference/getting_started.rst#step-1-define-sonataadminbundle-routes)
 
 ### Step 4: Update your database schema
 
